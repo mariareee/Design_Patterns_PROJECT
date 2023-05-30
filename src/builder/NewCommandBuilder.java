@@ -5,7 +5,7 @@ public class NewCommandBuilder {
     public static void main(String[] args) {
         Command command;
         Waiter waiter = new Waiter();
-        CommandBuilder businessLunchbuilder = new BussinessLunchCommandBuilder();
+        CommandBuilder businessLunchbuilder = new SweetBrunchCommandBuilder();
         CommandBuilder simpleCommandBuilder = new SimpleCommandBuilder();
 
         waiter.setCommandBuilder(businessLunchbuilder);

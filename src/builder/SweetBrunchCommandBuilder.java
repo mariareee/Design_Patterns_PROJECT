@@ -1,7 +1,7 @@
 package builder;
 
 /* "ConcreteBuilder" */
-public class BussinessLunchCommandBuilder extends CommandBuilder {
+public class SweetBrunchCommandBuilder extends CommandBuilder {
 
     public void buildCheesecake() {
         command.setCheesecake("Classic Cheesecake");

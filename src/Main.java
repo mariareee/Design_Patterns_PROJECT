@@ -31,7 +31,7 @@ public class Main {
     private static void builder() {
         builder.Command command;
         Waiter waiter = new Waiter();
-        CommandBuilder businessLunchbuilder = new BussinessLunchCommandBuilder();
+        CommandBuilder businessLunchbuilder = new SweetBrunchCommandBuilder();
         CommandBuilder simpleCommandBuilder = new SimpleCommandBuilder();
 
         waiter.setCommandBuilder(businessLunchbuilder);
