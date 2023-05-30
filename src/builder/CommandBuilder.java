@@ -10,10 +10,10 @@ public abstract class CommandBuilder {
     public void createNewCommand() {
         command = new Command();
     }
-    public abstract void buildSandwich();
-    public abstract void buildPotatoe();
-    public abstract void buildDessert();
+    public abstract void buildCheesecake();
+    public abstract void buildBiscuits();
+    public abstract void buildIceCream();
     public abstract void buildDrink();
-    public abstract void buildSalad();
+    public abstract void buildPavlova();
 
 }

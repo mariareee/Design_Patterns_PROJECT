@@ -14,10 +14,10 @@ public class Waiter {
 
     public void constructCommand() {
         commandBuilder.createNewCommand();
-        commandBuilder.buildSandwich();
-        commandBuilder.buildPotatoe();
-        commandBuilder.buildDessert();
+        commandBuilder.buildCheesecake();
+        commandBuilder.buildBiscuits();
+        commandBuilder.buildIceCream();
         commandBuilder.buildDrink();
-        commandBuilder.buildSalad();
+        commandBuilder.buildPavlova();
     }
 }

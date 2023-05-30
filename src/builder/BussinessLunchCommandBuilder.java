@@ -2,21 +2,21 @@ package builder;
 
 /* "ConcreteBuilder" */
 public class BussinessLunchCommandBuilder extends CommandBuilder {
-    //implements SaladBuilder, SandwichBuilder, DrinkBuilder, DessertBuilder, PotatoeBuilder {
-    public void buildSandwich() {
-        command.setSandwich("Chicken Burger");
+
+    public void buildCheesecake() {
+        command.setCheesecake("Classic Cheesecake");
     }
-    public void buildPotatoe() {
-        command.setPotatoe("Dippers");
+    public void buildBiscuits() {
+        command.setBiscuits("Cookies");
     }
-    public void buildDessert() {
-        command.setDessert("MCSundae + Shake");
+    public void buildIceCream() {
+        command.setIceCream("MCSundae + Shake");
     }
     public void buildDrink() {
         command.setDrink("Cappuccino");
     }
-    public void buildSalad() {
-        command.setSalad("Greek Salad");
+    public void buildPavlova() {
+        command.setPavlova("Vegan Pavlova");
     }
 
 }

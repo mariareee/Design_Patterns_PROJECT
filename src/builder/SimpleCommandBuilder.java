@@ -2,23 +2,23 @@ package builder;
 
 /* "ConcreteBuilder" */
 public class SimpleCommandBuilder extends CommandBuilder {
-    public void buildSandwich() {
-        command.setSandwich("Big Mac + Cheese Burger");
+    public void buildCheesecake() {
+        command.setCheesecake("Big Mac + Cheese Burger");
     }
 
-    public void buildPotatoe() {
-        command.setPotatoe("Corn Cup");
+    public void buildBiscuits() {
+        command.setBiscuits("Corn Cup");
     }
 
-    public void buildDessert() {
-        command.setDessert("Mudpie McFLurry");
+    public void buildIceCream() {
+        command.setIceCream("Peppermint Candy");
     }
 
     public void buildDrink() {
-        command.setDrink("Double Chocolate Frappe");
+        command.setDrink("Caramel Cappuccino");
     }
 
-    public void buildSalad() {
-        command.setSalad("Grilled Chicken Salad");
+    public void buildPavlova() {
+        command.setPavlova("Gluten-free Pavlova");
     }
 }

@@ -2,34 +2,35 @@ package builder;
 
 /* "Product" */
 public class Command {
-    private String sandwich = "";
-    private String potatoe = "";
-    private String dessert = "";
+    private String cheesecake = "";
+    private String biscuits = "";
+
+    private String iceCream = "";
     private String drink = "";
-    private String salad = "";
+    private String pavlova = "";
 
-    public String getSandwich() {
-        return sandwich;
+    public String getCheesecake() {
+        return cheesecake;
     }
 
-    public void setSandwich(String sandwich) {
-        this.sandwich = sandwich;
+    public void setCheesecake(String cheesecake) {
+        this.cheesecake = cheesecake;
     }
 
-    public String getPotatoe() {
-        return potatoe;
+    public String getBiscuits() {
+        return biscuits;
     }
 
-    public void setPotatoe(String potatoe) {
-        this.potatoe = potatoe;
+    public void setBiscuits(String biscuits) {
+        this.biscuits = biscuits;
     }
 
-    public String getDessert() {
-        return dessert;
+    public String getIceCream() {
+        return iceCream;
     }
 
-    public void setDessert(String dessert) {
-        this.dessert = dessert;
+    public void setIceCream(String dessert) {
+        this.iceCream = iceCream;
     }
 
     public String getDrink() {
@@ -40,21 +41,21 @@ public class Command {
         this.drink = drink;
     }
 
-    public String getSalad() {
-        return salad;
+    public String getPavlova() {
+        return pavlova;
     }
 
-    public void setSalad(String salad) {
-        this.salad = salad;
+    public void setPavlova(String pavlova) {
+        this.pavlova = pavlova;
     }
 
     @Override
     public String toString() {
-        return "\n sandwich =  "+ sandwich +
-                "\n potatoe =  " + potatoe +
-                "\n dessert =  " + dessert +
+        return "\n sandwich =  "+ cheesecake +
+                "\n potatoe =  " + biscuits +
+                "\n dessert =  " + iceCream +
                 "\n drink =  " + drink +
-                "\n salad =  " +salad;
+                "\n salad =  " +pavlova;
 
     }
 
