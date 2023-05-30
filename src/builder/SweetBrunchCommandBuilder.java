@@ -10,7 +10,7 @@ public class SweetBrunchCommandBuilder extends CommandBuilder {
         command.setBiscuits("Cookies");
     }
     public void buildIceCream() {
-        command.setIceCream("MCSundae + Shake");
+        command.setIceCream("Vanilla + Strawberry");
     }
     public void buildDrink() {
         command.setDrink("Cappuccino");

@@ -3,11 +3,11 @@ package builder;
 /* "ConcreteBuilder" */
 public class SimpleCommandBuilder extends CommandBuilder {
     public void buildCheesecake() {
-        command.setCheesecake("Big Mac + Cheese Burger");
+        command.setCheesecake("Classic Cheesecake + Chocolate Cheesecake");
     }
 
     public void buildBiscuits() {
-        command.setBiscuits("Corn Cup");
+        command.setBiscuits("Butter biscuits");
     }
 
     public void buildIceCream() {

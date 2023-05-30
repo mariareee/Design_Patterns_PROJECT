@@ -29,7 +29,7 @@ public class Command {
         return iceCream;
     }
 
-    public void setIceCream(String dessert) {
+    public void setIceCream(String iceCream) {
         this.iceCream = iceCream;
     }
 
@@ -51,11 +51,11 @@ public class Command {
 
     @Override
     public String toString() {
-        return "\n sandwich =  "+ cheesecake +
-                "\n potatoe =  " + biscuits +
-                "\n dessert =  " + iceCream +
+        return "\n cheesecake =  "+ cheesecake +
+                "\n biscuits =  " + biscuits +
+                "\n icecream =  " + iceCream +
                 "\n drink =  " + drink +
-                "\n salad =  " +pavlova;
+                "\n pavlova =  " +pavlova;
 
     }
 

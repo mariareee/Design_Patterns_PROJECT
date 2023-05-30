@@ -5,10 +5,10 @@ public class NewCommandBuilder {
     public static void main(String[] args) {
         Command command;
         Waiter waiter = new Waiter();
-        CommandBuilder businessLunchbuilder = new SweetBrunchCommandBuilder();
+        CommandBuilder sweetBrunchCommandBuilder = new SweetBrunchCommandBuilder();
         CommandBuilder simpleCommandBuilder = new SimpleCommandBuilder();
 
-        waiter.setCommandBuilder(businessLunchbuilder);
+        waiter.setCommandBuilder(sweetBrunchCommandBuilder);
         waiter.constructCommand();
 
         command = waiter.getCommand();
