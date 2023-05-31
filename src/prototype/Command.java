@@ -1,10 +1,8 @@
 package prototype;
-
 import java.util.ArrayList;
 
 public class Command implements Prototype {
     public enum CommandType {Light, Heavy, Special}
-
     private CommandType type;
     private ArrayList<Product> products = new ArrayList<>();
     private float totalPrice = 0;
@@ -37,7 +35,6 @@ public class Command implements Prototype {
             }
         }
     }
-
     public CommandType getType(){
         return this.type;
     }

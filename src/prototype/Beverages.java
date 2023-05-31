@@ -1,6 +1,5 @@
 package prototype;
-
-interface Liquid {
+interface Beverages {
     float getVolume();
     void setVolume(float volume);
 }

@@ -8,14 +8,12 @@ public class NetOrder extends OrderProcessTemplate
         System.out.println("Item added to online shopping cart");
         System.out.println("Get delivery address.");
     }
-
     @Override
     public void doPayment()
     {
         System.out.println
                 ("Online Payment through Netbanking, card or Paytm");
     }
-
     @Override
     public void doDelivery()
     {

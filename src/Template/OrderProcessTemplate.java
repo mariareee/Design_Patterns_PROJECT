@@ -4,9 +4,7 @@ package Template;
 public abstract class OrderProcessTemplate
 {
     public boolean isOrder;
-
     public abstract void doSelect();
-
     public abstract void doPayment();
 
     public final void orderWrap()
@@ -22,7 +20,6 @@ public abstract class OrderProcessTemplate
     }
 
     public abstract void doDelivery();
-
     public final void processOrder(boolean isOrder)
     {
         doSelect();

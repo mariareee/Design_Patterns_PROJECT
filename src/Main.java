@@ -101,9 +101,9 @@ public class Main {
         CommandRegistry commandRegistry = new CommandRegistry();
         prototype.Command command1 = new prototype.Command();
 
-        Product shrimpMcWrap = new ShrimpMcWrap();
-        Product dorna = new Dorna();
-        Product mcToast = new McToast();
+        Product shrimpMcWrap = new BirthdayPancake();
+        Product dorna = new FijiWater();
+        Product mcToast = new SweetSet();
 
         command1.addProduct(shrimpMcWrap);
         command1.addProduct(dorna);

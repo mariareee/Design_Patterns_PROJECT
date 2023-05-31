@@ -1,8 +1,5 @@
 package AbstractFactory;
-
-
 public class CheesecakeFactory extends AbstractFactory {
-
     @Override
     public Cheesecake getCheesecake(String cheesecakeType) {
         if(cheesecakeType == null){

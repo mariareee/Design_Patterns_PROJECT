@@ -1,5 +1,4 @@
 package AbstractFactory;
-
 public class ChocolateCheesecake implements Cheesecake {
     @Override
     public void createCheesecake() {

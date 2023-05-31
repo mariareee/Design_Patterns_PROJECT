@@ -1,5 +1,4 @@
 package builder;
-
 /* "ConcreteBuilder" */
 public class SweetBrunchCommandBuilder extends CommandBuilder {
 
