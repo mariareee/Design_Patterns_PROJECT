@@ -1,6 +1,6 @@
 import AbstractFactory.AbstractFactory;
 import builder.*;
-import FacadeAndDecoratorr.*;
+import Facade_Decorator.*;
 import prototype.*;
 import  Template.*;
 import AbstractFactory.*;

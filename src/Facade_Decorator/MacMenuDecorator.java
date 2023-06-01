@@ -1,4 +1,4 @@
-package FacadeAndDecoratorr;
+package Facade_Decorator;
 
 public class MacMenuDecorator implements MacMenu_dec{
     private MacMenu_dec newBurger;

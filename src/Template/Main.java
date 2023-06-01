@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String args[]) throws NumberFormatException, IOException {
 
-        System.out.print("=========Choose McDonald's Menu Template============ \n");
+        System.out.print("=========Choose Bakey's Menu Template============ \n");
         System.out.print("            1. Line Template.              \n");
         System.out.print("            2. Grid Template.             \n");
         System.out.print("            3. Exit.             \n");

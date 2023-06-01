@@ -1,4 +1,4 @@
-package FacadeAndDecoratorr;
+package Facade_Decorator;
 
 public interface MacMenu_dec {
     public String prepareBurger();

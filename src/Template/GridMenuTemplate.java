@@ -9,5 +9,4 @@ public class GridMenuTemplate extends MenuTemplate{
     public void showProductsName() {
         System.out.println("the name of the products are displayed below the image");
     };
-
 }

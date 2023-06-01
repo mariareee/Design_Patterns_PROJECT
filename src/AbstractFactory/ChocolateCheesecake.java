@@ -1,3 +1,4 @@
+//concrete participant
 package AbstractFactory;
 public class ChocolateCheesecake implements Cheesecake {
     @Override

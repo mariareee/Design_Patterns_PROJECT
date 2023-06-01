@@ -1,4 +1,4 @@
-package FacadeAndDecoratorr;
+package Facade_Decorator;
 
 public class MenuKeeper {
     private MacMenu cheeseburger;

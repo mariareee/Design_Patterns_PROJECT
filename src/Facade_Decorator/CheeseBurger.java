@@ -1,4 +1,4 @@
-package FacadeAndDecoratorr;
+package Facade_Decorator;
 
 public class CheeseBurger implements MacMenu {
     @Override
@@ -46,4 +46,3 @@ public class CheeseBurger implements MacMenu {
 
 
 }
-

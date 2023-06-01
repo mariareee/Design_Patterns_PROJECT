@@ -1,4 +1,4 @@
-package FacadeAndDecoratorr;
+package Facade_Decorator;
 
 public class CheeseBurger_dec extends MacMenuDecorator {
     public CheeseBurger_dec(MacMenu_dec newBurger) {

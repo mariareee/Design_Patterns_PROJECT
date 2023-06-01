@@ -1,4 +1,4 @@
-package FacadeAndDecoratorr;
+package Facade_Decorator;
 
 public class McChicken_dec implements MacMenu_dec {
 
