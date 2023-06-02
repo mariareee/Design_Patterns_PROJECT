@@ -1,43 +1,43 @@
 package Facade_Decorator;
 
 public class MenuKeeper {
-    private MacMenu cheeseburger;
-    private MacMenu hamburger;
-    private MacMenu mcchicken;
+    private BakeryMenu cheesecakeClassic;
+    private BakeryMenu cheesecakeChocolate;
+    private BakeryMenu cheesecakeMango;
 
     public MenuKeeper(){
-        cheeseburger = new CheeseBurger();
-        hamburger = new Hamburger();
-        mcchicken = new McChicken();
+        cheesecakeClassic = new CheesecakeClassic();
+        cheesecakeChocolate = new CheesecakeChocolate();
+        cheesecakeMango = new CheesecakeMango();
     }
-    public void cheesburgerMenu(){
-        cheeseburger.action();
-        cheeseburger.action1();
-        cheeseburger.action2();
-        cheeseburger.action3();
-        cheeseburger.action4();
-        cheeseburger.action5();
-        cheeseburger.action6();
-        cheeseburger.action7();
+    public void cheesecakeClassicMenu(){
+        cheesecakeClassic.action();
+        cheesecakeClassic.action1();
+        cheesecakeClassic.action2();
+        cheesecakeClassic.action3();
+        cheesecakeClassic.action4();
+        cheesecakeClassic.action5();
+        cheesecakeClassic.action6();
+        cheesecakeClassic.action7();
     }
-    public void hamburgerMenu(){
-        hamburger.action();
-        hamburger.action1();
-        hamburger.action2();
-        hamburger.action3();
-        hamburger.action4();
-        hamburger.action5();
-        hamburger.action6();
-        hamburger.action7();
+    public void cheesecakeChocolateMenu(){
+        cheesecakeChocolate.action();
+        cheesecakeChocolate.action1();
+        cheesecakeChocolate.action2();
+        cheesecakeChocolate.action3();
+        cheesecakeChocolate.action4();
+        cheesecakeChocolate.action5();
+        cheesecakeChocolate.action6();
+        cheesecakeChocolate.action7();
     }
-    public void mcchickenMenu(){
-        mcchicken.action();
-        mcchicken.action1();
-        mcchicken.action2();
-        mcchicken.action3();
-        mcchicken.action4();
-        mcchicken.action5();
-        mcchicken.action6();
-        mcchicken.action7();
+    public void cheesecakeMangoMenu(){
+        cheesecakeMango.action();
+        cheesecakeMango.action1();
+        cheesecakeMango.action2();
+        cheesecakeMango.action3();
+        cheesecakeMango.action4();
+        cheesecakeMango.action5();
+        cheesecakeMango.action6();
+        cheesecakeMango.action7();
     }
 }

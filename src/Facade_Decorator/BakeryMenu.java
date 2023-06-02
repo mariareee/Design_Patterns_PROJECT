@@ -1,6 +1,6 @@
 package Facade_Decorator;
 
-public interface MacMenu {
+public interface BakeryMenu {
     public void action();
     public void action1();
     public void action2();

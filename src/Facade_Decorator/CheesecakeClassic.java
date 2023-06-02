@@ -1,6 +1,6 @@
 package Facade_Decorator;
 
-public class McChicken implements MacMenu {
+public class CheesecakeClassic implements BakeryMenu {
     @Override
     public void action() {
         System.out.println("Taking a regular bun...");

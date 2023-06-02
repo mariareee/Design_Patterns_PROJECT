@@ -9,37 +9,37 @@ public class FacadePatternClient {
 
     public static void main(String args[]) throws NumberFormatException, IOException {
         do {
-            System.out.print("========= McDonald's Menu============ \n");
-            System.out.print("            1. McChicken.              \n");
-            System.out.print("            2. Hamburger.             \n");
-            System.out.print("            3. Cheeseburger            \n");
-            System.out.print("            4. Exit.                     \n");
+            System.out.print("========= McDonald's Menu================= \n");
+            System.out.print("            1. Classic cheesecake.         \n");
+            System.out.print("            2. Chocolate cheesecake.       \n");
+            System.out.print("            3. Mango cheesecake            \n");
+            System.out.print("            4. Exit.                       \n");
             System.out.print("Enter your choice: ");
 
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             choice = Integer.parseInt(br.readLine());
-            MenuKeeper sk = new MenuKeeper();
+              MenuKeeper sk = new MenuKeeper();
 
             switch (choice) {
                 case 1: {
-                    sk.mcchickenMenu();
-                    McChicken_dec mc = new McChicken_dec();
-                    System.out.println(mc.prepareBurger());
-                    System.out.println(mc.burgerPrice());
+                    sk.cheesecakeClassicMenu();
+                    CheesecakeClassic_dec mc = new CheesecakeClassic_dec();
+                    System.out.println(mc.prepareCheesecake());
+                    System.out.println(mc.cheesecakePrice());
                 }
                 break;
                 case 2: {
-                    sk.hamburgerMenu();
-                    MacMenu_dec hb = new Hamburger_dec((MacMenu_dec) new McChicken_dec());
-                    System.out.println(hb.prepareBurger());
-                    System.out.println(hb.burgerPrice());
+                    sk.cheesecakeChocolateMenu();
+                    BakeryMenu_dec hb = new CheesecakeChocolate_dec((BakeryMenu_dec) new CheesecakeClassic_dec());
+                    System.out.println(hb.prepareCheesecake());
+                    System.out.println(hb.cheesecakePrice());
                 }
                 break;
                 case 3: {
-                    sk.cheesburgerMenu();
-                    MacMenu_dec cb = new CheeseBurger_dec((MacMenu_dec) new McChicken_dec());
-                    System.out.println(cb.prepareBurger());
-                    System.out.println(cb.burgerPrice());
+                    sk.cheesecakeMangoMenu();
+                    BakeryMenu_dec cb = new CheesecakeMango_dec((BakeryMenu_dec) new CheesecakeClassic_dec());
+                    System.out.println(cb.prepareCheesecake());
+                    System.out.println(cb.cheesecakePrice());
                 }
                 break;
                 default: {

@@ -1,6 +1,6 @@
 package Facade_Decorator;
 
-public class CheeseBurger implements MacMenu {
+public class CheesecakeChocolate  implements BakeryMenu {
     @Override
     public void action() {
         System.out.println("Taking a regular bun...");
@@ -14,35 +14,32 @@ public class CheeseBurger implements MacMenu {
 
     @Override
     public void action2() {
-        System.out.println("Adding the pasteurized process American Cheese... ");
+        System.out.println("Taking a pickle, cutting it and putting the pickle slices...  ");
 
     }
 
     @Override
     public void action3() {
-        System.out.println("Taking a pickle, cutting it and putting the pickle slices...  ");
+        System.out.println("Taking  an onion, cutting it down and putting over pickle slices...");
     }
 
     @Override
     public void action4() {
-        System.out.println("Taking  an onion, cutting it down and putting over pikles slice...");
-    }
-
-    @Override
-    public void action5() {
         System.out.println("Anointing with mustard...");
     }
 
     @Override
-    public void action6() {
+    public void action5() {
         System.out.println("Anointing with ketchup...");
     }
 
     @Override
-    public void action7() {
+    public void action6() {
         System.out.println("Covering all this with regular bun.");
     }
 
+    @Override
+    public void action7() {
 
-
+    }
 }
