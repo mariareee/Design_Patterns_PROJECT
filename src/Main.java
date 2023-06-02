@@ -51,10 +51,10 @@ public class Main {
 
     private static void facade() throws IOException {
         do{
-            System.out.print("========= McDonald's Menu============ \n");
-            System.out.print("            1. McChicken.              \n");
-            System.out.print("            2. Hamburger.             \n");
-            System.out.print("            3. Cheeseburger            \n");
+            System.out.print("========= Bakery's Menu=============== \n");
+            System.out.print("            1. Classic cheesecake.       \n");
+            System.out.print("            2. Chocolate cheesecake.     \n");
+            System.out.print("            3. Mango cheesecake          \n");
             System.out.print("            4. Exit.                     \n");
             System.out.print("Enter your choice: ");
 
@@ -119,7 +119,7 @@ public class Main {
     }
 
     private static void template() throws IOException {
-        System.out.print("=========Choose McDonald's Menu Template============ \n");
+        System.out.print("=========Choose Bakery's Menu Template============ \n");
         System.out.print("            1. Line Template.              \n");
         System.out.print("            2. Grid Template.             \n");
         System.out.print("            3. Exit.             \n");
@@ -135,7 +135,7 @@ public class Main {
                 MenuTemplate line = new LineMenuTemplate();
                 line.chooseMenuTemplate(true, false);
                 System.out.println();
-                System.out.print("========= Oreder Type ============ \n");
+                System.out.print("========= Order Type ============ \n");
                 System.out.print("            1. Home.              \n");
                 System.out.print("            2. Local.             \n");
                 System.out.print("            3. Exit.                     \n");

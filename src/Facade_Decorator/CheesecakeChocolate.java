@@ -3,7 +3,7 @@ package Facade_Decorator;
 public class CheesecakeChocolate  implements BakeryMenu {
     @Override
     public void action() {
-        System.out.println("Taking a regular bun...");
+        System.out.println("Taking a regular pan...");
     }
 
     @Override
