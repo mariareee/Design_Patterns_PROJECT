@@ -4,7 +4,7 @@ public class CheesecakeClassic_dec implements BakeryMenu_dec {
 
     @Override
     public String prepareCheesecake() {
-        return "This is McChicken";
+        return "This is Classic Cheesecake";
     }
 
     @Override

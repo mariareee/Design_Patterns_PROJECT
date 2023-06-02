@@ -9,7 +9,7 @@ public class CheesecakeChocolate_dec extends BakeryMenuDecorator {
 
 
     public String prepareCheesecake () {
-        return super.prepareCheesecake() + " Without Chicken patty, mayonnaise and with beef patty, onion, pickle, mustard and ketchup";
+        return super.prepareCheesecake() + " Without chocolate or mango syrop filling.";
     }
 
 

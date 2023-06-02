@@ -3,44 +3,44 @@ package Facade_Decorator;
 public class CheesecakeMango implements BakeryMenu {
     @Override
     public void action() {
-        System.out.println("Taking a regular bun...");
+        System.out.println("Taking a pan...");
     }
 
     @Override
     public void action1() {
-        System.out.println("Putting the 100% Beef Patty...");
+        System.out.println("Crushing biscuits and pressing them into the bottom of a pan....");
 
     }
 
     @Override
     public void action2() {
-        System.out.println("Adding the pasteurized process American Cheese... ");
+        System.out.println("Beating cream cheese until smooth and creamy...");
 
     }
 
     @Override
     public void action3() {
-        System.out.println("Taking a pickle, cutting it and putting the pickle slices...  ");
+        System.out.println("Adding mango syrop iin the filling...  ");
     }
 
     @Override
     public void action4() {
-        System.out.println("Taking  an onion, cutting it down and putting over pikles slice...");
+        System.out.println("Pouring the cream cheese mixture over the crust in the pan.... ");
     }
 
     @Override
     public void action5() {
-        System.out.println("Anointing with mustard...");
+        System.out.println("Baking the cheesecake in a preheated oven at a specified temperature for a designated time...");
     }
 
     @Override
     public void action6() {
-        System.out.println("Anointing with ketchup...");
+        System.out.println("Letting the cheesecake to cool...");
     }
 
     @Override
     public void action7() {
-        System.out.println("Covering all this with regular bun.");
+        System.out.println("Serving the cheesecake.");
     }
 
 

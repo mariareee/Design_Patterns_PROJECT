@@ -5,12 +5,12 @@ public class CheesecakeMango_dec extends BakeryMenuDecorator {
         super(newCheesecake);
     }
 
-    public String prepareBurger () {
-        return super.prepareCheesecake() + " Without Chicken patty, mayonnaise and With beef patty, onion, pickle, mustard, ketchup and Cheese.";
+    public String prepareCheesecake () {
+        return super.prepareCheesecake() + " Without chocolate or classic filling.";
     }
 
 
-    public double burgerPrice () {
+    public double cheesecakePrice () {
         return super.cheesecakePrice() + 2.0;
 
     }

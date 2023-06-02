@@ -9,11 +9,11 @@ public class FacadePatternClient {
 
     public static void main(String args[]) throws NumberFormatException, IOException {
         do {
-            System.out.print("========= McDonald's Menu================= \n");
-            System.out.print("            1. Classic cheesecake.         \n");
-            System.out.print("            2. Chocolate cheesecake.       \n");
-            System.out.print("            3. Mango cheesecake            \n");
-            System.out.print("            4. Exit.                       \n");
+            System.out.print("========= Bakery's's Menu================= \n");
+            System.out.print("         1. Classic cheesecake.            \n");
+            System.out.print("         2. Chocolate cheesecake.          \n");
+            System.out.print("         3. Mango cheesecake               \n");
+            System.out.print("         4. Exit.                          \n");
             System.out.print("Enter your choice: ");
 
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
