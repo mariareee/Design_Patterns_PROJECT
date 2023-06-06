@@ -82,11 +82,15 @@
         can be implemented by subclasses. The provided code demonstrates the usage of this pattern in menu
         template classes.
     </p>
+	<div class="uml-image">
+      <div class="uml-image">
+    <img src="src/Facade_Decorator/decorator_diagram.drawio.png" alt="Template Method Pattern UML">
+</div>
+    </div>
     <div class="uml-image">
-    <img src/Template/Template_Diagram.drawio.png" alt="Template Method Pattern UML">
 </div>
 <div class="uml-image">
-    <img src="src/Template/Template_2_Diagram.drawio.png" alt="Template Method 2 Pattern UML">
+    <img src="src/Template/Template_Diagram.drawio.png" alt="Template Method 2 Pattern UML">
 </div>
 </div>
 </body>
