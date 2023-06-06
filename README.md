@@ -4,8 +4,7 @@
 </head>
 <body>
     <h1>Design Patterns Project</h1>
-php
-Copy code
+
 <div class="pattern-section">
     <h2>Abstract Factory Pattern</h2>
     <p>
@@ -30,10 +29,10 @@ Copy code
         implement the clone() method, and thus the object can be cloned.
     </p>
     <div class="uml-image">
-       <div class="uml-image">
-    <img src="src/prototype/Prototype_class_diagram.drawio.pngg" alt="Prototype Pattern UML">
+      <div class="uml-image">
+    <img src="src/prototype/Prototype_class_diagram.drawio.png" alt="Prototype Pattern UML">
 </div>
-    </div>
+    </div>>
 </div>
 
 <div class="pattern-section">
@@ -44,8 +43,10 @@ Copy code
         whether you want to dine in or take it home.
     </p>
     <div class="uml-image">
-    <img src="src/builder/buider.drawio.pngg" alt="Builder Pattern UML">
+      <div class="uml-image">
+    <img src="src/builder/buider.drawio.png" alt="Builder Pattern UML">
 </div>
+    </div>
 </div>
 
 <div class="pattern-section">
@@ -69,10 +70,9 @@ Copy code
         acts as a facade that simplifies interactions with different cheesecake flavors (subsystem classes).
     </p>
     <div class="uml-image">
-        <div class="uml-image">
-    <img src="src/Facade_Decorator/facade_diagram.drawio.pngg" alt="Facade Pattern UML">
+      <div class="uml-image">
+    <img src="src/Facade_Decorator/facade_diagram.drawio.png" alt="Facade Pattern UML">
 </div>
-    </div>
 </div>
 
 <div class="pattern-section">
