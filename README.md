@@ -1,43 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-css
-Copy code
-    h1 {
-        text-align: center;
-    }
-
-    h2 {
-        margin-top: 30px;
-    }
-
-    p {
-        margin-bottom: 15px;
-    }
-
-    .pattern-section {
-        margin-top: 40px;
-    }
-
-    .pattern-title {
-        margin-top: 20px;
-        font-weight: bold;
-    }
-
-    .pattern-description {
-        margin-top: 10px;
-    }
-
-    .uml-image {
-        text-align: center;
-        margin-top: 20px;
-    }
-</style>
 </head>
 <body>
     <h1>Design Patterns Project</h1>
@@ -53,8 +16,9 @@ Copy code
         the product family (createCheesecake).
     </p>
     <div class="uml-image">
-        <!-- Add UML image for Abstract Factory Pattern here -->
-        <!-- <img src="abstract_factory_pattern_uml.png" alt="Abstract Factory Pattern UML"> -->
+        <div class="uml-image">
+    <img src="src/AbstractFactory/Abstract_factory.drawio.png" alt="Abstract Factory Pattern UML">
+</div>
     </div>
 </div>
 
@@ -66,8 +30,9 @@ Copy code
         implement the clone() method, and thus the object can be cloned.
     </p>
     <div class="uml-image">
-        <!-- Add UML image for Prototype Pattern here -->
-        <!-- <img src="prototype_pattern_uml.png" alt="Prototype Pattern UML"> -->
+       <div class="uml-image">
+    <img src="src/prototype/Prototype_class_diagram.drawio.pngg" alt="Prototype Pattern UML">
+</div>
     </div>
 </div>
 
@@ -79,9 +44,8 @@ Copy code
         whether you want to dine in or take it home.
     </p>
     <div class="uml-image">
-        <!-- Add UML image for Builder Pattern here -->
-        <!-- <img src="builder_pattern_uml.png" alt="Builder Pattern UML"> -->
-    </div>
+    <img src="src/builder/buider.drawio.pngg" alt="Builder Pattern UML">
+</div>
 </div>
 
 <div class="pattern-section">
@@ -92,8 +56,9 @@ Copy code
         different cheesecake flavors.
     </p>
     <div class="uml-image">
-        <!-- Add UML image for Decorator Pattern here -->
-        <!-- <img src="decorator_pattern_uml.png" alt="Decorator Pattern UML"> -->
+      <div class="uml-image">
+    <img src="src/Facade_Decorator/decorator_diagram.drawio.png" alt="Decorator Pattern UML">
+</div>
     </div>
 </div>
 
@@ -104,8 +69,9 @@ Copy code
         acts as a facade that simplifies interactions with different cheesecake flavors (subsystem classes).
     </p>
     <div class="uml-image">
-        <!-- Add UML image for Facade Pattern here -->
-        <!-- <img src="facade_pattern_uml.png" alt="Facade Pattern UML"> -->
+        <div class="uml-image">
+    <img src="src/Facade_Decorator/facade_diagram.drawio.pngg" alt="Facade Pattern UML">
+</div>
     </div>
 </div>
 
@@ -117,9 +83,11 @@ Copy code
         template classes.
     </p>
     <div class="uml-image">
-        <!-- Add UML image for Template Method Pattern here -->
-        <!-- <img src="template_method_pattern_uml.png" alt="Template Method Pattern UML"> -->
-    </div>
+    <img src/Template/Template_Diagram.drawio.png" alt="Template Method Pattern UML">
+</div>
+<div class="uml-image">
+    <img src="src/Template/Template_2_Diagram.drawio.png" alt="Template Method 2 Pattern UML">
+</div>
 </div>
 </body>
 </html>
